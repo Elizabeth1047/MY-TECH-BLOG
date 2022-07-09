@@ -1,0 +1,614 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: poppins;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  width: 100%;
+}
+.standlone img {
+  width: 100%;
+}
+
+.firstsection {
+  width: 90%;
+  margin: auto;
+}
+
+.flexitems {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.firstsection .firsttext {
+  width: 100%;
+  padding: 80px 150px;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #000000b2;
+}
+.firstsection .first img {
+  width: 100%;
+}
+
+.firstsection .first {
+  position: relative;
+}
+.firstsection .first p {
+  position: absolute;
+
+  top: 420px;
+  left: 28px;
+  color: white;
+  font-size: 18px;
+}
+
+.secondsection {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #f0f1f866;
+  padding: 50px 0;
+}
+
+.secondsection .secondsecimg img {
+  width: 100%;
+}
+.secondsection .secondsectiontext p {
+  margin-bottom: 40px;
+}
+.secondsection .secondsectiontext div {
+  width: 40%;
+  margin: auto;
+}
+
+.secondsection .secondsectiontext .btn {
+  background-color: #5e98aa99;
+  color: white;
+  padding: 20px 25px;
+  border-radius: 10px;
+  font-weight: 600px;
+}
+.secondsection .secondsectiontext .btn {
+  background-color: #5e98aa99;
+  color: white;
+  padding: 20px 25px;
+  border-radius: 10px;
+  font-weight: 600px;
+}
+
+.secondsection .secondsectiontext div a {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.thirdsection {
+  width: 90%;
+  margin: 50px auto;
+}
+.thirdsection .thirdsecitems .third {
+  border: 1px solid #00000033;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.thirdsection p {
+  margin-bottom: 15px;
+  font-weight: 400px;
+  font-size: 20px;
+}
+.thirdsection .thirdsecitems .third p {
+  padding: 0 10px;
+  color: #00000080;
+  font-size: 15px;
+}
+
+.thirdsection .thirdsecitems .third img {
+  width: 100%;
+}
+.thirdsection .thirdsecitems .third figcaption {
+  margin: 10px;
+
+  font-weight: bold;
+  font-size: 15px;
+  color: #000000cc;
+}
+.thirdsection .thirdsecitems .third .btnn {
+  border: 1px solid #5e98aa;
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin-left: 50%;
+  color: #00000066;
+  font-style: italic;
+}
+.thirdsection .btn {
+  background-color: #5e98aa99;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+
+.fourthsection {
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+}
+.fourthsection .Svg3 img {
+  width: 100%;
+}
+.fourthsection .other #svg1 {
+  width: 20%;
+  position: absolute;
+  top: 70px;
+  left: 190px;
+}
+.fourthsection .other #svg2 {
+  width: 6%;
+  position: absolute;
+  top: 100px;
+  left: 227px;
+}
+.fifthsection {
+  width: 100%;
+  background-color: #f0f1f866;
+}
+.fifthsec {
+  width: 100%;
+  background-color: #f0f1f866;
+}
+
+.fifthsection .ok {
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+
+  padding: 25px;
+}
+.fifthsec .it {
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+
+  padding: 25px;
+}
+.fifthsection .ok .fifth img {
+  width: 100%;
+}
+.fifthsec .it .fifth img {
+  width: 100%;
+}
+.fifthsection .ok .fifth {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    linear-gradient(0deg, rgba(240, 241, 248, 0.8), rgba(240, 241, 248, 0.8));
+
+  padding-bottom: 30px;
+}
+.fifthsec .it .fifth {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    linear-gradient(0deg, rgba(240, 241, 248, 0.8), rgba(240, 241, 248, 0.8));
+
+  padding-bottom: 30px;
+}
+.fifthsection .ok .fifth figcaption {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000000cc;
+  font-weight: 900;
+  padding: 5px;
+}
+.fifthsec .it .fifth figcaption {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000000cc;
+  font-weight: 900;
+  padding: 5px;
+}
+.fifthsection .ok .fifth a {
+  border: 1px solid #5e98aa;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    linear-gradient(0deg, rgba(240, 241, 248, 0.8), rgba(240, 241, 248, 0.8));
+  padding: 10px 20px;
+  margin-left: 120px;
+  border-radius: 10px;
+}
+.fifthsection .ok .fifth .whole {
+  padding: 10px 10px;
+}
+.fifthsec .it .fifthsectiontext {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+  margin: auto;
+}
+.fifthsec .it .fifthsectiontext a {
+  color: #5e98aa;
+  font-size: 20px;
+}
+.sixthsection {
+  width: 100%;
+  margin-top: 30px;
+  background-color: aqua;
+}
+.sixthsecitems {
+  width: 95%;
+  margin: auto;
+  padding: 10px;
+}
+.sixthsection .sixthsecitems .gridone {
+  margin: auto;
+  width: 90%;
+}
+.sixthsection .sixthsecitems .gridone p {
+  font-size: 17px;
+  margin-top: 10px;
+}
+.sixthsection .sixthsecitems .gridone .imp {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: white;
+  margin-top: 10px;
+}
+.sixthsection .sixthsecitems .gridone .imp input {
+  flex-grow: 2;
+  border: none;
+}
+.sixthsection .sixthsecitems .gridone .imp input:focus {
+  outline: none;
+}
+
+.sixthsection .sixthsecitems .gridone .imp button {
+  background-color: bisque;
+  padding: 7px;
+  border-radius: 15px;
+  border: 1px solid bisque;
+}
+
+.sixthsection .gridtwo img {
+  width: 100%;
+}
+.seventhsection {
+  width: 98%;
+  margin: 20px auto;
+}
+.seventhsection .seventhsecitems .seventh h4,
+.seventhsection .seventhsecitems .seventh p {
+  margin-bottom: 12px;
+}
+
+.seventhsection .seventhsecitems .seventhh h4 {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.seventhsection .seventhsecitems .seventhh {
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+}
+.seventhsection .seventhsecitems .seventhh .sevn img {
+  width: 35px;
+  margin-top: 10px;
+  padding: 7px;
+}
+.norms {
+  width: 100%;
+  background-color: #5e98aa33;
+}
+.fix {
+  width: 95%;
+  margin: auto;
+}
+.fixs img {
+  width: 100%;
+}
+.secondsections {
+  width: 95%;
+  margin: 20px auto;
+}
+.secondsections h3 {
+  line-height: 1.5rem;
+}
+.secondsections .FIG {
+  margin-left: 300px;
+  color: #5e98aa;
+}
+.secondsections .FI {
+  width: 80%;
+  margin: auto;
+  font-weight: bold;
+}
+.secondsections .only {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .header .ned ul a:hover {
+    background-color: #5e98aa99;
+  }
+
+  .ned {
+    width: 95%;
+    margin: auto;
+  }
+  .header .ned button {
+    background-color: white;
+    padding: 5px 25px;
+    border: 1px solid #5e98aa;
+
+    border-radius: 5px;
+  }
+
+  .firstsection {
+    width: 100%;
+  }
+
+  .flexitems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .firstsection .firsttext {
+    line-height: 50px;
+    padding: 70px 50px;
+    font-size: 1.5rem;
+  }
+  .secondsection {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    margin-top: 30px;
+    padding: 50px;
+  }
+  .secondsection .secondsectiontext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  .secondsection .secondsectiontext h2 {
+    font-weight: 600px;
+    font-size: 35px;
+    line-height: 55px;
+  }
+  .secondsection .secondsectiontext p {
+    font-weight: 400px;
+    color: #00000099;
+  }
+
+  .secondsection .secondsectiontext div {
+    width: 40%;
+    margin: auto;
+  }
+
+  .secondsection .secondsectiontext .btn {
+    background-color: #5e98aa99;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 10px;
+    font-weight: 600px;
+  }
+  .secondsection .secondsectiontext .go {
+    font-size: 15px;
+    font-weight: 600px;
+  }
+  .secondsections h3 {
+    line-height: 35px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: 600px;
+  }
+  .secondsections p {
+    line-height: 150%;
+    margin-bottom: 10px;
+  }
+  .secondsections .FIG {
+    margin-left: 850px;
+    margin-bottom: 12px;
+  }
+  .secondsections .FI {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 12px;
+  }
+  .secondsections .ony {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .secondsections {
+    width: 75%;
+    margin: auto;
+  }
+
+  .thirdsection {
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .thirdsection .just {
+    font-weight: 400px;
+    font-size: 40px;
+  }
+  .thirdsection .thirdsecitems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 9px;
+  }
+  .thirdsection .thirdsecitems .third p {
+    padding: 5px;
+    color: #00000080;
+    font-size: 20px;
+  }
+
+  .thirdsection .thirdsecitems .third figcaption {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000cc;
+  }
+  .thirdsection .thirdsecitems .third .btnn {
+    border: 1px solid #5e98aa;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-left: 45%;
+    color: #00000066;
+    font-style: italic;
+  }
+
+  .fourthsection {
+    width: 95%;
+    position: relative;
+    margin: 50px auto;
+  }
+  .fourthsection .Svg3 img {
+    width: 100%;
+  }
+  .fourthsection .other #svg1 {
+    width: 20%;
+    position: absolute;
+    top: 220px;
+    left: 550px;
+  }
+  .fourthsection .other #svg2 {
+    width: 6%;
+    position: absolute;
+    top: 300px;
+    left: 650px;
+  }
+  .fifthsection {
+    width: 100%;
+  }
+  .fifthsection .ok {
+    width: 98%;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 9px;
+  }
+
+  .fifthsec {
+    width: 100%;
+  }
+  .fifthsec .it {
+    width: 98%;
+    margin: auto;
+  }
+  .fifthsec .it .fifthsetem img {
+    width: 100%;
+  }
+  .fifthsec .it .fifthsetem {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 9px;
+  }
+
+  .fifthsection .ok .fifth figcaption {
+    margin-bottom: 70px;
+    padding: 0px;
+  }
+  .fifthsec .it .but figcaption {
+    margin-bottom: 5px;
+    padding: 0px;
+  }
+
+  .fifthsection .ok .fifth a {
+    padding: 10px 50px;
+    margin-left: 15px;
+    font-style: italic;
+    border-radius: 10px;
+  }
+
+  .fifthsec .it .fifthsectiontext {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .fifthsec .it .fifthsectiontext a {
+    color: #5e98aa;
+    font-size: 20px;
+  }
+
+  .sixthsection {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #5e98aa80;
+    color: white;
+  }
+  .sixthsecitems {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 0;
+  }
+  .sixthsection .sixthsecitems .gridone h1 {
+    font-size: 50px;
+  }
+  .sixthsection .sixthsecitems .gridone p {
+    font-size: 20px;
+  }
+  .sixthsection .sixthsecitems .gridone .imp button {
+    background-color: #5e98aa80;
+
+    color: white;
+    padding: 7px 30px;
+    border-radius: 15px;
+    border: 1px solid bisque;
+    font-size: 20px;
+  }
+  .seventhsection {
+    width: 95%;
+    margin: 20px auto;
+    padding: 30px;
+  }
+  .seventhsection .seventhsecitems .seventhh {
+    display: grid;
+    grid-template-columns: 30% 60% 60%;
+    margin-left: 23rem;
+  }
+  .seventhsection .seventhsecitems {
+    display: grid;
+    grid-template-columns: 30% 55%;
+  }
+
+  .seventhsection .seventhsecitems .seventhh h4,
+  .seventhsection .seventhsecitems .seventh p {
+    margin-bottom: 12px;
+  }
+  .seventhsection .seventhsecitems .seventh span {
+    margin-bottom: 12px;
+  }
+  .fix {
+    width: 95%;
+    margin: auto;
+  }
+
+  .fixs img {
+    width: 100%;
+    height: 100vh;
+    margin: 40% auto;
+
+    margin-bottom: 50px;
+  }
+  .fixs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .secondsections .FI {
+    margin-bottom: 30px;
+  }
+}

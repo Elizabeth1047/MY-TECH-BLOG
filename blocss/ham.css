@@ -1,0 +1,104 @@
+.header {
+  background-color: white;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+.header ul a {
+  display: block;
+  padding: 20px;
+}
+.header ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header ul a:hover {
+  background-color: #5e98aa99;
+}
+.header .logo {
+  float: left;
+  display: block;
+  font-size: 2em;
+  padding: 10px 20px;
+}
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+.header .menuline {
+  padding: 28px 20px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+}
+.header .menuline .navline {
+  background: black;
+  display: block;
+  height: 2px;
+  width: 18px;
+  position: relative;
+  transition: background 0.2s ease-out;
+}
+.header .menuline .navline:before {
+  background: black;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  top: 5px;
+}
+
+.header .menuline .navline:after {
+  background: black;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  top: -5px;
+}
+
+.header .menubtn {
+  display: none;
+}
+.header .menubtn:checked ~ .menu {
+  max-height: 470px;
+}
+.header .menubtn:checked ~ .menuline .navline {
+  background: transparent;
+}
+
+.header .menubtn:checked ~ .menuline .navline:before {
+  transform: rotate(-45deg);
+  top: 0%;
+}
+.header .menubtn:checked ~ .menuline .navline:after {
+  transform: rotate(45deg);
+  top: 0%;
+}
+@media (min-width: 1024px) {
+  .header {
+    background-color: white;
+  }
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menuline {
+    display: none;
+  }
+}
