@@ -4,6 +4,7 @@
   position: fixed;
   width: 100%;
   z-index: 5;
+  
 }
 .header ul a {
   display: block;
@@ -30,7 +31,7 @@
   transition: max-height 0.2s ease-out;
 }
 .header .menuline {
-  padding: 28px 20px;
+  padding: 28px 35px;
   position: relative;
   float: right;
   cursor: pointer;
@@ -69,7 +70,8 @@
   display: none;
 }
 .header .menubtn:checked ~ .menu {
-  max-height: 470px;
+  max-height: 645px;
+  text-align: center;
 }
 .header .menubtn:checked ~ .menuline .navline {
   background: transparent;
@@ -83,7 +85,22 @@
   transform: rotate(45deg);
   top: 0%;
 }
-@media (min-width: 1024px) {
+
+
+@media (min-width:1024px) {
+  
+
+  .ned {
+    width: 95%;
+    margin: auto;
+  }
+  .header .ned button {
+    background-color: white;
+    padding: 5px 25px;
+    border: 1px solid #5e98aa;
+    border-radius: 5px;
+  }
+
   .header {
     background-color: white;
   }
@@ -91,7 +108,7 @@
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    padding: 20px 5px;
   }
   .header .menu {
     clear: none;
@@ -101,4 +118,6 @@
   .header .menuline {
     display: none;
   }
-}
+  
+  }
+

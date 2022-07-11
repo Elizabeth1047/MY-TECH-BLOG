@@ -27,7 +27,7 @@ body {
 }
 .firstsection .firsttext {
   width: 100%;
-  padding: 80px 150px;
+  padding: 80px 100px;
   font-size: 1rem;
   line-height: 30px;
   color: #000000b2;
@@ -66,17 +66,11 @@ body {
   margin: auto;
 }
 
+
 .secondsection .secondsectiontext .btn {
   background-color: #5e98aa99;
   color: white;
-  padding: 20px 25px;
-  border-radius: 10px;
-  font-weight: 600px;
-}
-.secondsection .secondsectiontext .btn {
-  background-color: #5e98aa99;
-  color: white;
-  padding: 20px 25px;
+  padding: 20px 5px;
   border-radius: 10px;
   font-weight: 600px;
 }
@@ -119,7 +113,7 @@ body {
 }
 .thirdsection .thirdsecitems .third .btnn {
   border: 1px solid #5e98aa;
-  padding: 10px 25px;
+  padding: 10px 0px;
   border-radius: 10px;
   margin-left: 50%;
   color: #00000066;
@@ -141,16 +135,18 @@ body {
   width: 100%;
 }
 .fourthsection .other #svg1 {
-  width: 20%;
+ width: 35%;
   position: absolute;
-  top: 70px;
-  left: 190px;
+  top: 30px;
+  left: 100px;
+  padding: 15px;
 }
 .fourthsection .other #svg2 {
-  width: 6%;
+  width: 18%;
   position: absolute;
-  top: 100px;
-  left: 227px;
+  top: 51px;
+  left: 132px;
+  padding: 15px;
 }
 .fifthsection {
   width: 100%;
@@ -233,19 +229,24 @@ body {
 .sixthsection {
   width: 100%;
   margin-top: 30px;
-  background-color: aqua;
+   background-color: #5e98aa80;
+   color: white;
 }
 .sixthsecitems {
   width: 95%;
   margin: auto;
   padding: 10px;
+  
 }
 .sixthsection .sixthsecitems .gridone {
   margin: auto;
   width: 90%;
 }
+.sixthsection .sixthsecitems .gridone h1 {
+    font-size: 35px;
+  }
 .sixthsection .sixthsecitems .gridone p {
-  font-size: 17px;
+  font-size: 20px;
   margin-top: 10px;
 }
 .sixthsection .sixthsecitems .gridone .imp {
@@ -266,19 +267,23 @@ body {
 }
 
 .sixthsection .sixthsecitems .gridone .imp button {
-  background-color: bisque;
-  padding: 7px;
+  background-color: #5e98aa80;
+  padding: 8px 11px;
   border-radius: 15px;
   border: 1px solid bisque;
+  color: white;
 }
 
 .sixthsection .gridtwo img {
   width: 100%;
 }
+
 .seventhsection {
   width: 98%;
   margin: 20px auto;
+  padding: 5px;
 }
+
 .seventhsection .seventhsecitems .seventh h4,
 .seventhsection .seventhsecitems .seventh p {
   margin-bottom: 12px;
@@ -290,12 +295,17 @@ body {
 }
 .seventhsection .seventhsecitems .seventhh {
   display: grid;
-  grid-template-columns: 20% 40% 40%;
+  grid-template-columns: 25% 35% 40%;
 }
 .seventhsection .seventhsecitems .seventhh .sevn img {
-  width: 35px;
+  width: 25px;
   margin-top: 10px;
-  padding: 7px;
+  padding: 5px;
+}
+
+.seventhsection .seventhsecitems .seventhh .sevn  {
+  
+   padding-left: 8px;
 }
 .norms {
   width: 100%;
@@ -328,23 +338,128 @@ body {
   width: 100%;
 }
 
-@media (min-width: 1024px) {
-  .header .ned ul a:hover {
-    background-color: #5e98aa99;
-  }
 
-  .ned {
+@media (min-width:768px ) {
+ .flexitems {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+  }
+  .firstsection .firsttext {
+  width: 100%;
+  padding: 80px 50px;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #000000b2;
+}
+  .secondsection {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 15px;
+    padding: 20px;
+    
+  }
+  .secondsection .secondsecimg img {
+  width: 100%;
+}
+
+  .secondsection .secondsectiontext .btn {
+    background-color: #5e98aa99;
+    color: white;
+    padding: 15px 5px;
+    border-radius: 10px;
+    font-weight: 600px;
+    
+  }
+  .thirdsection .thirdsecitems {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 9px;
+    justify-items: center;
+   align-items: center;
+   margin-bottom: 20px;
+  }
+  .thirdsection .thirdsecitems .nt {
+    justify-self: center;
+    
+    justify-content: center;
+   align-items: center;
+  }
+  .thirdsection .thirdsecitems .third .btnn {
+    border: 1px solid #5e98aa;
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin-left: 45%;
+    color: #00000066;
+    font-style: italic;
+    font-size: 12px;
+  }
+  .thirdsection .btn {
+  background-color: #5e98aa99;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 10px;
+  
+  margin-left: 100px;
+}
+.fourthsection {
+    width: 95%;
+    position: relative;
+    margin: 50px auto;
+  }
+  .fourthsection .Svg3 img {
+    width: 100%;
+  }
+.fourthsection .other #svg1 {
+   width: 25%;
+    position: absolute;
+    top: 100px;
+    left: 280px;
+    padding:20px;
+  }
+  .fourthsection .other #svg2 {
+    width:8% ;
+    position: absolute;
+    top: 155px;
+    left: 348px;
+    padding: 5px;
+  }
+  .fifthsection .ok {
+    width: 98%;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 9px;
+  }
+  .fifthsection .ok .fifth a {
+  border: 1px solid #5e98aa;
+font-size: 14px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    linear-gradient(0deg, rgba(240, 241, 248, 0.8), rgba(240, 241, 248, 0.8));
+  padding: 10px 3px;
+  
+  margin-left: 100px;
+  border-radius: 10px;
+}
+  
+.sixthsecitems {
     width: 95%;
     margin: auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    padding: 8px;
   }
-  .header .ned button {
-    background-color: white;
-    padding: 5px 25px;
-    border: 1px solid #5e98aa;
+  .seventhsection .seventhsecitems .seventhh {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+}
+  
+  
+}
 
-    border-radius: 5px;
-  }
-
+@media (min-width: 1024px) {
+  
   .firstsection {
     width: 100%;
   }
@@ -391,7 +506,7 @@ body {
   .secondsection .secondsectiontext .btn {
     background-color: #5e98aa99;
     color: white;
-    padding: 20px 25px;
+    padding: 20px 5px;
     border-radius: 10px;
     font-weight: 600px;
   }
@@ -461,6 +576,13 @@ body {
     color: #00000066;
     font-style: italic;
   }
+  .thirdsection .btn {
+  background-color: #5e98aa99;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 10px;
+  margin: 0;
+}
 
   .fourthsection {
     width: 95%;
@@ -474,13 +596,13 @@ body {
     width: 20%;
     position: absolute;
     top: 220px;
-    left: 550px;
+    left: 430px;
   }
   .fourthsection .other #svg2 {
     width: 6%;
     position: absolute;
-    top: 300px;
-    left: 650px;
+    top: 280px;
+    left: 500px;
   }
   .fifthsection {
     width: 100%;
@@ -534,11 +656,29 @@ body {
     width: 100%;
     margin: 20px auto;
   }
+  .fifthsection .ok .fifth figcaption {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000000cc;
+  font-weight: 900;
+  padding: 10px;
+}
 
   .fifthsec .it .fifthsectiontext a {
     color: #5e98aa;
     font-size: 20px;
   }
+  .fifthsection .ok .fifth a {
+  border: 1px solid #5e98aa;
+font-size: 14px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    linear-gradient(0deg, rgba(240, 241, 248, 0.8), rgba(240, 241, 248, 0.8));
+  padding: 10px 3px;
+  
+  margin-left: 100px;
+  border-radius: 10px;
+}
+
 
   .sixthsection {
     width: 100%;
@@ -575,12 +715,12 @@ body {
   }
   .seventhsection .seventhsecitems .seventhh {
     display: grid;
-    grid-template-columns: 30% 60% 60%;
-    margin-left: 23rem;
+    grid-template-columns: 20% 40% 40%;
+    margin-left: 13rem;
   }
   .seventhsection .seventhsecitems {
     display: grid;
-    grid-template-columns: 30% 55%;
+    grid-template-columns: 30% 70%;
   }
 
   .seventhsection .seventhsecitems .seventhh h4,
