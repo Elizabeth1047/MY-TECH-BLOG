@@ -27,6 +27,15 @@
   background-color: #03242eea;
   font-size: large;
   font-weight: bold;
+  color: white;
+  
+}
+.header ul button:hover,
+.header .ned ul button:hover {
+  background-color: #03242eea;
+  font-size: large;
+  font-weight: bold;
+  color: white;
   
 }
 .header .logo,
@@ -153,6 +162,7 @@
     padding: 5px 25px;
     border: 1px solid #5e98aa;
     border-radius: 5px;
+    color: black;
   }
 
   .header .ned {
@@ -178,6 +188,14 @@
   .header .logo,
 .header .ned .logo {
   color: black;
+  
+}
+.header ul a:hover,
+.header .ned ul a:hover {
+  background-color: #87b3c0;
+  font-size: large;
+  font-weight: bold;
+  color: white;
   
 }
   
