@@ -1,16 +1,19 @@
 .header,
 .header .ned {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.7);
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
   z-index: 5;
   
+  
 }
 .header ul a,
 .header .ned ul a {
-  display: block;
+  display: inline-block;
   padding: 20px;
+  color: rgb(170, 197, 197);
+  border-radius: 30px;
 }
 .header ul ,
 .header .ned ul {
@@ -21,7 +24,10 @@
 }
 .header ul a:hover,
 .header .ned ul a:hover {
-  background-color: #5e98aa99;
+  background-color: #03242eea;
+  font-size: large;
+  font-weight: bold;
+  
 }
 .header .logo,
 .header .ned .logo {
@@ -29,6 +35,7 @@
   display: block;
   font-size: 2em;
   padding: 10px 20px;
+  color: white;
 }
 .header .menu,
 .header .ned .menu {
@@ -45,20 +52,20 @@
 }
 .header .menuline .navline,
 .header .ned .menuline .navline {
-  background: black;
+  background: blue;
   display: block;
   height: 2px;
-  width: 18px;
+  width: 30px;
   position: relative;
   transition: background 0.2s ease-out;
 }
 .header .menuline .navline:before,
 .header .ned .menuline .navline:before {
-  background: black;
+  background: white;
   content: "";
   display: block;
   height: 100%;
-  width: 100%;
+  width: 70%;
   position: absolute;
   transition: all 0.2s ease-out;
   top: 5px;
@@ -66,11 +73,11 @@
 
 .header .menuline .navline:after,
 .header .ned .menuline .navline:after {
-  background: black;
+  background: pink;
   content: "";
   display: block;
   height: 100%;
-  width: 100%;
+  width: 80%;
   position: absolute;
   transition: all 0.2s ease-out;
   top: -5px;
@@ -80,9 +87,18 @@
 .header .ned .menubtn {
   display: none;
 }
+.header .ned button {
+    background-color: #5e98aa;
+    padding: 15px 35px;
+    border: 1px solid #5e98aa;
+    border-radius: 25px;
+    color:rgb(170, 197, 197) ;
+    font-size: 16px;
+  }
+  
 .header .menubtn:checked ~ .menu,
 .header .ned .menubtn:checked ~ .menu {
-  max-height: 645px;
+  min-height: 100vh;
   text-align: center;
 }
 .header .menubtn:checked ~ .menuline .navline,
@@ -118,8 +134,15 @@
     border: 1px solid #5e98aa;
     border-radius: 5px;
   }
+  }
 @media (min-width:1024px) {
+  .header ul a,
+.header .ned ul a {
   
+ 
+  color:black;
+  
+}
 
   .ned {
     width: 100%;
@@ -141,14 +164,20 @@
   .header li a {
     padding: 20px 25px;
   }
+  
   .header .ned .menu {
     clear: none;
     float: right;
     max-height: none;
   }
+ 
   .header .ned .menuline {
     display: none;
   }
+  
+  .header .logo,
+.header .ned .logo {
+  color: black;
   
 }
   
